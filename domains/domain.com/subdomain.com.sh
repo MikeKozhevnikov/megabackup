@@ -6,7 +6,7 @@ SERVER_NAME="subdomain.domain.com"
 
 MEGA_DIR="/Root/Backups/VDS/production/domains/domain.com"
 START_ALL=$(date +%s)
-THIS_FILE_PATH="/root/megabackup/domains/${SERVER_NAME}.sh"
+THIS_FILE_PATH="/root/megabackup/domains/domain.com/${SERVER_NAME}.sh"
 LOG_FILE_PATH="/root/megabackup/log/log.txt"
 WORKING_DIR="/root/backup_${SERVER_NAME}_dir"
 DOMAINS_FOLDER="/srv/domain.com"

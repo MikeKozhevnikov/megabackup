@@ -6,7 +6,7 @@ SERVER="etc"
 MEGA_DIR="/Root/Backups/VDS/production"
 
 START_ALL=$(date +%s)
-THIS_FILE_PATH="/root/megabackup/etc.sh"
+THIS_FILE_PATH="/root/megabackup/etc/etc.sh"
 LOG_FILE_PATH="/root/megabackup/log/log.txt"
 WORKING_DIR="/root/backup_tmp_etc_dir"
 
