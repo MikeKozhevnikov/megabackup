@@ -1,12 +1,12 @@
 #!/bin/bash
-# etc folder to MEGA.nz backup script
+# user homedir folder to MEGA.nz backup script
 
 SERVER="user"
 
 MEGA_DIR="/Root/Backups/VDS/production"
 START_ALL=$(date +%s)
 THIS_FILE_PATH="/root/megabackup/homedirs/${SERVER}.sh"
-LOG_FILE_PATH="/root/megabackup/log.txt"
+LOG_FILE_PATH="/root/megabackup/log/log.txt"
 WORKING_DIR="/root/backup_tmp_${SERVER}_dir"
 
 # Create local working directory and collect all data
